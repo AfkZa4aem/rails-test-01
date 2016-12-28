@@ -1,0 +1,12 @@
+<h1>Files in the current directory</h1>
+
+<p>
+  The files in current directory are:
+</p>
+
+<ul>
+<!-- This is block actually -->
+<% for file in @files %>
+<li><%= file; %></li>
+<% end %>
+</ul>
